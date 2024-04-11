@@ -179,7 +179,7 @@ Loading Certificates
     .. versionadded:: 0.7
 
     Deserialize a certificate from PEM encoded data. PEM certificates are
-    base64 decoded and have delimiters that look like
+    base64 encoded and have delimiters that look like
     ``-----BEGIN CERTIFICATE-----``.
 
     :param bytes data: The PEM encoded certificate data.
